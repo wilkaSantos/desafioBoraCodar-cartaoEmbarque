@@ -1,0 +1,176 @@
+
+.hero{
+    width: 32.7rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    color: var(--c-text);
+    font-family: var(--ff-card);
+}
+
+.cardTitle{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: .1em;
+}
+
+.wrapperdData{
+    width: 32.7rem;
+    padding: 2.4rem 3.2rem;
+
+    background: var(--bg-card);
+    border-radius: 2.4rem;
+
+    color: #000;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .special{
+    text-align: right;
+}
+
+.dataflight{
+    margin-bottom: 2.4rem;
+}
+    .dataflight p{
+        color: var(--c-txt-secundary-card);
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: -0.02rem;
+    }
+
+    .dataflight span{
+        color: var(--c-txt-primary-card);
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.9rem;
+        letter-spacing: -0.02rem;
+    }
+
+.dataDestiny{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .dataDestiny .city{
+        font-size: 1.4rem;
+        letter-spacing: -0.02em;
+        line-height: 1.7rem;
+        color: var(--c-txt-secundary-card);
+    }
+    .dataDestiny .code{
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 4.7rem;
+        letter-spacing: -0.02em;
+    }
+
+    .dataDestiny .hour{
+        color: var(--c-text-hour);
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: -0.02em;
+    }
+    .hour sup{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        letter-spacing: -0.02em;
+    }
+
+    .icoPlane{
+        width: 2rem;
+        height: 2rem;
+    }
+
+.target{
+    border-top: 1px dashed  var(--c-line);
+    border-bottom: 1px dashed  var(--c-line);
+}
+
+.dataPassanger p{
+    color: var(--c-txt-secundary-card);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: -0.02em;
+}
+
+.dataPassanger span{
+    color: var(--c-txt-primary-card);
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: -0.02em;
+
+}
+
+.wrappedBoarding{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+    .wrappedBoarding .text{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: -0.02em;
+        color: var(--c-txt-secundary-card);
+    }
+
+    .wrappedBoarding p{
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        letter-spacing: -0.02em;
+    }
+
+    .hourBoarding{
+        background: var(--bg-hour-boarding);
+        padding: .4rem .8rem;
+        border-radius: .8rem;
+        width: 5.7rem;
+        color: var(--c-text);
+    }
+
+    .qrCode{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .wrappedQRCode p{
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        letter-spacing: -0.02em;
+        color: var(--c-txt-secundary-card);
+    }
+
+.containertextBoarding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+    .containertextBoarding p{
+        font-size: 1.6rem;
+        line-height: 2rem;
+        letter-spacing: -0.02em;
+    }
+
+
+.notice{
+    width: 85%;
+
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.9rem;
+    letter-spacing: 0.05rem;
+    opacity: 0.64;
+}
